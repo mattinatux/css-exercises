@@ -1,3 +1,13 @@
+/*
+<body>
+  <div class="card">
+    <h1 class="title">I'm a card</h1>
+    <div class="content">I have content inside me..lorem ipsum blah blah blah. Here's some stuff you need to read.</div>
+    <div class="button-container">and a <button>BIG BUTTON</button></div>
+  </div>
+</body>
+*/
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -7,21 +17,37 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 4px;
 }
 
 .title {
   background: #e3f4ff;
+  border: 0px;
+  margin: 5px;
+  padding: 5px;
 }
 
 .content {
   background: #e3f4ff;
+  border: 0px;
+  margin: 5px;
+  padding: 10px 5px;
 }
 
 .button-container {
   background: #e3f4ff;
+  display: block;
+  justify-content: center;
+  margin: 5px;
+  padding: 5px;
+  border: 0px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  padding: 10px 25px;
+  display: block;
+  margin: 0 auto;
 }
