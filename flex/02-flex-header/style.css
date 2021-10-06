@@ -1,6 +1,9 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex; /* ME! */
+  justify-content: space-around; /* ME! */
+  align-items: center; /* ME! */
 }
 
 .logo {
@@ -9,11 +12,17 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 10px; /* ME! (but was unnecessary in this case because ul pulling the weight) */
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex; /* ME! */
+  margin: 0px; /* ME! */
+  padding: 0 25px; /* ME! this takes care of outer spacing*/
+  justify-content: space-evenly; /* ME! (may have been unecessary to add here)*/
+  gap: 10px; /* ME! this puts the gap between the one two three boxes!*/
 }
 
 a {
@@ -22,4 +31,13 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+ /* ME! These pull the left and right sides in, allowing ul to dictate it with padding */
+.left-links {
+  margin-right: auto;
+}
+
+.right-links {
+  margin-left: auto;
 }

@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.top {
+  justify-content: center;
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+  align-items: flex-start;
+}
+
+.plantsouter {
+  display: flex;
+  justify-content: center;
+}
+
+.plants div div {
+  max-width: 200px;
+}
